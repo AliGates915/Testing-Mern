@@ -18,8 +18,7 @@ dotenv.config();
 
 // Middleware
 app.use(cors({
-  origin:'*',
-  // origin: 'https://testing-mern-ad.vercel.app',
+  origin: 'https://testing-mern-ad.vercel.app',
   // origin: 'http://localhost:3000', // Allow your frontend origin
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Ensure POST is allowed
   credentials: true, // Allow credentials
